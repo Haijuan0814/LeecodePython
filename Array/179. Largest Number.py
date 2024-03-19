@@ -14,7 +14,7 @@ class Solution:
         for i,num in enumerate(nums):
             nums[i] = str(num)
         
-        nums = sorted(nums, key = key_func)
+        nums = sorted(nums, key = key_func)  
         return ''.join(nums) if nums[0] != '0' else '0'
         
         
